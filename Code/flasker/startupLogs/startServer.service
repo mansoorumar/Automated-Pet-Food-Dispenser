@@ -1,0 +1,10 @@
+[Unit]
+Description=Service that starts up the automated dispenser flask server on startup
+
+[Service]
+Restart=on-failure
+WorkingDirectory=/home/petfeeder
+ExecStart=/home/petfeeder/startServer.sh
+
+[Install]
+WantedBy=multi-user.target

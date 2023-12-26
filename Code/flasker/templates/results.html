@@ -1,0 +1,23 @@
+{% extends 'base.html' %}
+
+{% block content %}
+	
+	<br/>
+	<center> 
+	  	<u> <h1> Dispenser Configured! </h1> </u> 
+	  	<br/>
+
+	  	<h4>Your pet will be fed every: <br/>{{feedInterval}} Hours</h4>
+	  	<br/>
+
+	  	<h4>Your pet will have no more than: <br/>{{maxFeedQuota}} Feedings Everyday</h4>
+	  	<br/>
+
+	  	<h4>Your pet will be fed: <br/>{{feedAmount}}</h4>
+	  	<br/>
+
+	  	<br/>
+
+	</center>
+
+{% endblock %}

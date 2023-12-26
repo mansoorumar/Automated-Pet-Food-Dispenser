@@ -1,0 +1,6 @@
+# This file contains what was implemented into the raspberry pi's crontab files.
+# These commands controlled the automation of the dispenser through commands that are run at times specified in the command list
+
+# m h  dom mon dow   command
+0 * * * * cd /home/petfeeder/flasker/dispense_Update_Scripts/ && ./dispense_Check.sh
+0 0 * * * cd /home/petfeeder/flasker/dispense_Update_Scripts/ && ./quotaReset.sh

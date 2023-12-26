@@ -1,0 +1,62 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+	<br/>
+	<center> 
+	  	
+	  	<u> <h1> Dispenser Setup </h1> </u> 
+	  	<br/>
+
+		<form method="post" action="../results">
+
+			<!-- <div class="form-floating">
+	  			<input type="number" class="form-control" name="feedInterval" id="floatingInput" placeholder="120" required>
+	  			<label for="floatingInput">Feed Interval (in hours)</label>
+			</div>
+			<br/> -->
+
+			<!-- <div class="form-floating">
+	  			<input type="number" class="form-control" name="maxFeedQuota" id="floatingInput" placeholder="18">
+	  			<label for="floatingInput">Max Feeding Quota</label>
+			</div>
+			<br/> -->
+			
+			<select class="form-select" name="feedInterval" aria-label="Default select example" required>
+  				<!-- <option disabled selected>Feed Interval (in hours)</option> -->
+  				<option select value=2>Feed every 2 Hours</option>
+  				<option value=3>Feed every 3 Hours</option>
+  				<option value=4>Feed every 4 Hours</option>
+  				<option value=5>Feed every 5 Hours</option>
+  				<option value=6>Feed every 6 Hours</option>
+  				<option value=7>Feed every 7 Hours</option>
+  				<option value=8>Feed every 8 Hours</option>
+			</select>
+			<br/>
+
+
+			<select class="form-select" name="maxFeedQuota" aria-label="Default select example" required>
+  				<!-- <option disabled selected>Max Feeding Quota</option> -->
+  				<option select value=2>Maximum 2 Feedings a Day</option>
+  				<option value=3>Maximum 3 Feedings a Day</option>
+  				<option value=4>Maximum 4 Feedings a Day</option>
+			</select>
+			<br/>
+
+
+			<select class="form-select" name="feedAmount" aria-label="Default select example" required>
+  				<!-- <option disabled selected>Feed Amount</option> -->
+  				<option select value="A Little Amount of Food">A Little Amount of Food</option>
+  				<option value="A Moderate Amount of Food">A Moderate Amount of Food</option>
+  				<option value="A Heavy Amount of Food">A Heavy Amount of Food</option>
+			</select>
+
+			<br/>
+		  	<input type="submit" value="Submit">
+		  	<br/>
+
+		</form>
+
+	</center>
+
+{% endblock %}

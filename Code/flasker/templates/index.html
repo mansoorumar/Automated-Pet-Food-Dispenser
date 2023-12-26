@@ -1,0 +1,36 @@
+{% extends 'base.html' %}
+
+{% block content %}
+	
+	<br/>
+	<center> 
+
+	  	<u> <h1> Today's Stats </h1> </u> 
+	  	<br/>
+	  	
+	  	<form method="post" action="/">
+	  		<button type="submit" class="btn btn-outline-success" name="manualDispense" value=1>Manual Dispense</button>
+		</form>
+
+	  	<br/>
+	  	<br/>
+	  	<!-- For checking table code from pandas conversion -->
+		<!-- {{df_daily_html}} -->
+
+		{{df_daily_html | safe}}
+	  	<br/>
+	  	
+	  	<u> <h1> Manual Dispense Times </h1> </u> 
+	  	<br/>
+
+	  	<!-- {{df_manual_html}} -->
+	  	{{df_manual_html | safe}}
+	  	<br/>
+	  	<br/>
+	  	<br/>
+	  	<br/>
+	  	<br/>
+	  	<br/>
+	</center>
+
+{% endblock %}
