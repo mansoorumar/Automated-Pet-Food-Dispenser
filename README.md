@@ -22,7 +22,7 @@ The bash scripting I have made for this project runs certain shell files that ha
 ### Hardware
 When handling the hardware I have assisted in the construction of the product and configuration of the raspberry pi.  
 I enabled port forwarding on the local router and SSH on the raspberry pi in order to ensure product use outside the LAN and remote control of the raspberry pi respectively.  
-Due to time contraints it was not feasible to create a professional looking chasis for the product.   
+Due to time contraints it was not feasible to create a professional looking chassis for the product.   
 
 ## Thank You
 Thank you for taking the time to view my project. I hope you have a wonderful day!
