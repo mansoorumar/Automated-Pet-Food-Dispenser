@@ -1,6 +1,6 @@
 # Automated Pet Food Dispenser
 This is the github repository that contains all the files involved in the project.  
-This project consists of a constructed product that uses raspberry pi to sends signals to a servo motor to feed your pet based on user configuration on a self-hosted web server.
+This project consists of a constructed product that uses a raspberry pi to sends signals to a servo motor to feed your pet based on user configuration on a self-hosted web server.
 
 ## Folder Contents
 Within the Code folder you can find all the code that was utilized in the creation of this project.<br>
